@@ -1,0 +1,13 @@
+package com.lockme;
+
+import java.util.List;
+
+public class LockMeProject 
+{
+    static final String folderpath="D:\\New Volume\\MyPhase1Project\\LockMeFiles";
+	public static void main(String[] args) 
+	{
+		FileManager.get
+	}
+
+}

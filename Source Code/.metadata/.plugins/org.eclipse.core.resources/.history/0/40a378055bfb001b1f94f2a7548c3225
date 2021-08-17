@@ -1,0 +1,12 @@
+package com.lockme;
+
+public class LockMeProject 
+{
+    static final String folderpath="D:\\New Volume\\MyPhase1Project\\LockMeFiles";
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+
+	}
+
+}

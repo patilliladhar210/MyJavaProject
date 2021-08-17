@@ -1,0 +1,26 @@
+package com.lockme;
+
+import java.io.File;
+import java.util.ArrayList;
+import java.util.List;
+
+public class FileManager 
+{
+public static List<String> getALLFiles(String folderpath)
+{
+	//Creating File Object
+	File fl = new File(folderpath);
+	
+	//Getting all files into FileArray
+	File[] listOfFiles= fl.listFiles();
+	
+	//Declare a list to store file names
+	List<String> fileNames = new ArrayList<String>;
+	
+	for(File f:listOfFiles)
+		fileNames.add(f.getName());
+	
+	//return the List
+	return fileNames;
+}
+}

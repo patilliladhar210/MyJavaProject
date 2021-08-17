@@ -1,0 +1,22 @@
+package com.lockme;
+
+import java.util.List;
+
+import java.util.Scanner;
+
+public class LockMeProject 
+{
+    static final String folderpath="D:\\New Volume\\MyPhase1Project\\LockMeFiles";
+	public static void main(String[] args) 
+	{
+		Scanner obj = new Scanner(System.in);
+		String fileName;
+		int linesCount;
+		
+		System.out.println("Enter file name:");
+		fileName=obj.nextLine();
+		
+		
+	}
+
+}

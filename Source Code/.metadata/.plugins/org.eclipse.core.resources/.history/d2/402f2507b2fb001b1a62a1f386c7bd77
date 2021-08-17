@@ -1,0 +1,11 @@
+package com.lockme;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class LockMeProject 
+{
+    static final String folderpath="D:\\New Volume\\MyPhase1Project\\LockMeFiles";
+	
+}
